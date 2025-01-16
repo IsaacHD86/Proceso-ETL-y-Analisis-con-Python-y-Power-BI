@@ -11,20 +11,17 @@ Crear visualizaciones para responder preguntas analíticas clave relacionadas co
 
 ## Estructura del Proyecto.                                                                                                               
 /                                                                                                                                        
-├── DATA
-     * BD_OPORTUNIDADES_23_24.csv     # Base de datos original con datos crudos archivo .csv
-     * Oportunidades_ETL              # Archivo .csv final con proceso ETL
-     * Reto                           # Archivo pdf con Instrucciones del Reto
+├── DATA                                                                                                                                      * BD_OPORTUNIDADES_23_24.csv              # Base de datos original con datos crudos archivo .csv                                         * Oportunidades_ETL                       # Archivo .csv final con proceso ETL                                                      
+     * Reto                                    # Archivo pdf con Instrucciones del Reto                                                  
      
-├── NOTEBOOKS
-     * Proceso ETL BD Oportunidades   # Archivo jupyter notebook con código de proceso ETL en Python  
+├── NOTEBOOKS                                                                                                                            
+     * Proceso ETL BD Oportunidades            # Archivo jupyter notebook con código de proceso ETL en Python                                   
+├── POWER BI                                                                                                                             
+     * Reto Tecnico Analisis                   # Archivo .pbix con el Dashboard en Power BI que muestra los gráficos y sus resultados  
+     * Respuestas Dashboard Power BI           # Archivo .pdf con las respuestas de resuelven los gráficos                                                           
      
-├── POWER BI
-     * Reto Tecnico Analisis          # Archivo .pbix con el Dashboard en Power BI que muestra los gráficos y sus resultados. 
-     * Respuestas Dashboard Power BI  # Archivo .pdf con las respuestas de resuelven los gráficos                             
-     
-├── SQL
-     * Oportunidadesdb.bak            # Base de datos en SQL Server después de aplicar proceso ETL  
+├── SQL                                                                                                                                  
+     * Oportunidadesdb.bak                     # Base de datos en SQL Server después de aplicar proceso ETL                               
                                                                        
 
 ## Requisitos Técnicos
