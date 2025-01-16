@@ -11,9 +11,10 @@ Crear visualizaciones para responder preguntas analíticas clave relacionadas co
 
 ## Estructura del Proyecto.                                                                                                               
 /                                                                                                                                        
-├── DATA                                                                                                                                      * BD_OPORTUNIDADES_23_24.csv .    # Base de datos original con datos crudos archivo .csv                                         
-     * Oportunidades_ETL          .    # Archivo .csv final con proceso ETL                                                      
-     * Reto                       .    # Archivo pdf con Instrucciones del Reto                                                  
+├── DATA                                                                                                                                 
+     * BD_OPORTUNIDADES_23_24.csv .    # Base de datos original con datos crudos archivo .csv 
+     * Oportunidades_ETL          .    # Archivo .csv final con proceso ETL                   
+     * Reto                       .    # Archivo pdf con Instrucciones del Reto               
      
 ├── NOTEBOOKS                                                                                                                            
      * Proceso ETL BD Oportunidades     .      # Archivo jupyter notebook con código de proceso ETL en Python                                   
